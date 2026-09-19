@@ -1,0 +1,19 @@
+# Ceedling & Unity test build artifacts
+test/build/*
+.ceedling/
+
+test/build/artifacts/gcov/gcovr
+
+# Doxygen generated documentation
+docs/html/*
+
+# ESP-IDF / CMake build directories & local configuration
+examples/example_on_esp32-c6/build/*
+sdkconfig
+sdkconfig.old
+
+# IDE & Editor temporary files
+.vscode/
+.idea/
+*.swp
+*.o
